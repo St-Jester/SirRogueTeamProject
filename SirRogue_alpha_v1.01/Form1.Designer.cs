@@ -81,7 +81,7 @@
             this.PlayerBox.Dock = System.Windows.Forms.DockStyle.Left;
             this.PlayerBox.Location = new System.Drawing.Point(0, 0);
             this.PlayerBox.Name = "PlayerBox";
-            this.PlayerBox.Size = new System.Drawing.Size(350, 761);
+            this.PlayerBox.Size = new System.Drawing.Size(350, 747);
             this.PlayerBox.TabIndex = 0;
             this.PlayerBox.TabStop = false;
             this.PlayerBox.Text = "Player";
@@ -94,7 +94,7 @@
             this.HeroBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.HeroBox.Location = new System.Drawing.Point(3, 18);
             this.HeroBox.Name = "HeroBox";
-            this.HeroBox.Size = new System.Drawing.Size(344, 290);
+            this.HeroBox.Size = new System.Drawing.Size(344, 276);
             this.HeroBox.TabIndex = 0;
             this.HeroBox.TabStop = false;
             this.HeroBox.Text = "Hero";
@@ -114,7 +114,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(3, 40);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(338, 247);
+            this.pictureBox1.Size = new System.Drawing.Size(338, 233);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -132,7 +132,7 @@
             // 
             this.EquippedBox.Controls.Add(this.EquippedTable);
             this.EquippedBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.EquippedBox.Location = new System.Drawing.Point(3, 308);
+            this.EquippedBox.Location = new System.Drawing.Point(3, 294);
             this.EquippedBox.Name = "EquippedBox";
             this.EquippedBox.Size = new System.Drawing.Size(344, 150);
             this.EquippedBox.TabIndex = 1;
@@ -159,7 +159,7 @@
             // 
             this.StatsBox.Controls.Add(this.StatsTable);
             this.StatsBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.StatsBox.Location = new System.Drawing.Point(3, 458);
+            this.StatsBox.Location = new System.Drawing.Point(3, 444);
             this.StatsBox.Name = "StatsBox";
             this.StatsBox.Size = new System.Drawing.Size(344, 150);
             this.StatsBox.TabIndex = 1;
@@ -186,7 +186,7 @@
             // 
             this.InventoryBox.Controls.Add(this.InventoryTable);
             this.InventoryBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.InventoryBox.Location = new System.Drawing.Point(3, 608);
+            this.InventoryBox.Location = new System.Drawing.Point(3, 594);
             this.InventoryBox.Name = "InventoryBox";
             this.InventoryBox.Size = new System.Drawing.Size(344, 150);
             this.InventoryBox.TabIndex = 1;
@@ -204,10 +204,10 @@
             this.InventoryTable.Location = new System.Drawing.Point(3, 18);
             this.InventoryTable.Name = "InventoryTable";
             this.InventoryTable.RowCount = 4;
-            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.875F));
-            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.125F));
-            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.84746F));
+            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.15254F));
+            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+            this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.InventoryTable.Size = new System.Drawing.Size(338, 129);
             this.InventoryTable.TabIndex = 1;
             // 
@@ -225,7 +225,7 @@
             this.MapBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MapBox.Location = new System.Drawing.Point(350, 0);
             this.MapBox.Name = "MapBox";
-            this.MapBox.Size = new System.Drawing.Size(564, 661);
+            this.MapBox.Size = new System.Drawing.Size(341, 647);
             this.MapBox.TabIndex = 1;
             this.MapBox.TabStop = false;
             this.MapBox.Text = "Map";
@@ -234,7 +234,7 @@
             // 
             this.NWButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NWButton.Enabled = false;
-            this.NWButton.Location = new System.Drawing.Point(189, 251);
+            this.NWButton.Location = new System.Drawing.Point(77, 244);
             this.NWButton.Name = "NWButton";
             this.NWButton.Size = new System.Drawing.Size(40, 40);
             this.NWButton.TabIndex = 8;
@@ -245,7 +245,7 @@
             // 
             this.WButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.WButton.Enabled = false;
-            this.WButton.Location = new System.Drawing.Point(154, 316);
+            this.WButton.Location = new System.Drawing.Point(42, 309);
             this.WButton.Name = "WButton";
             this.WButton.Size = new System.Drawing.Size(40, 40);
             this.WButton.TabIndex = 7;
@@ -256,7 +256,7 @@
             // 
             this.SWButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SWButton.Enabled = false;
-            this.SWButton.Location = new System.Drawing.Point(189, 386);
+            this.SWButton.Location = new System.Drawing.Point(77, 379);
             this.SWButton.Name = "SWButton";
             this.SWButton.Size = new System.Drawing.Size(40, 40);
             this.SWButton.TabIndex = 6;
@@ -267,7 +267,7 @@
             // 
             this.SButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SButton.Enabled = false;
-            this.SButton.Location = new System.Drawing.Point(264, 416);
+            this.SButton.Location = new System.Drawing.Point(152, 409);
             this.SButton.Name = "SButton";
             this.SButton.Size = new System.Drawing.Size(40, 40);
             this.SButton.TabIndex = 5;
@@ -278,7 +278,7 @@
             // 
             this.SEButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SEButton.Enabled = false;
-            this.SEButton.Location = new System.Drawing.Point(339, 386);
+            this.SEButton.Location = new System.Drawing.Point(227, 379);
             this.SEButton.Name = "SEButton";
             this.SEButton.Size = new System.Drawing.Size(40, 40);
             this.SEButton.TabIndex = 4;
@@ -289,7 +289,7 @@
             // 
             this.EButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EButton.Enabled = false;
-            this.EButton.Location = new System.Drawing.Point(364, 316);
+            this.EButton.Location = new System.Drawing.Point(252, 309);
             this.EButton.Name = "EButton";
             this.EButton.Size = new System.Drawing.Size(40, 40);
             this.EButton.TabIndex = 3;
@@ -300,7 +300,7 @@
             // 
             this.NEButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NEButton.Enabled = false;
-            this.NEButton.Location = new System.Drawing.Point(339, 251);
+            this.NEButton.Location = new System.Drawing.Point(227, 244);
             this.NEButton.Name = "NEButton";
             this.NEButton.Size = new System.Drawing.Size(40, 40);
             this.NEButton.TabIndex = 2;
@@ -311,7 +311,7 @@
             // 
             this.NButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NButton.Enabled = false;
-            this.NButton.Location = new System.Drawing.Point(264, 216);
+            this.NButton.Location = new System.Drawing.Point(152, 209);
             this.NButton.Name = "NButton";
             this.NButton.Size = new System.Drawing.Size(40, 40);
             this.NButton.TabIndex = 1;
@@ -324,7 +324,7 @@
             this.MapPicture.Image = ((System.Drawing.Image)(resources.GetObject("MapPicture.Image")));
             this.MapPicture.Location = new System.Drawing.Point(3, 18);
             this.MapPicture.Name = "MapPicture";
-            this.MapPicture.Size = new System.Drawing.Size(558, 640);
+            this.MapPicture.Size = new System.Drawing.Size(335, 626);
             this.MapPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MapPicture.TabIndex = 0;
             this.MapPicture.TabStop = false;
@@ -334,9 +334,9 @@
             this.groupBox3.Controls.Add(this.groupBox2);
             this.groupBox3.Controls.Add(this.groupBox1);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox3.Location = new System.Drawing.Point(350, 661);
+            this.groupBox3.Location = new System.Drawing.Point(350, 647);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(564, 100);
+            this.groupBox3.Size = new System.Drawing.Size(341, 100);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
@@ -344,7 +344,7 @@
             // 
             this.groupBox2.Controls.Add(this.TavernButton);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.groupBox2.Location = new System.Drawing.Point(391, 18);
+            this.groupBox2.Location = new System.Drawing.Point(168, 18);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(170, 79);
             this.groupBox2.TabIndex = 1;
@@ -389,9 +389,9 @@
             this.Journal.Controls.Add(this.CompletedQuests);
             this.Journal.Controls.Add(this.CurrentQuest);
             this.Journal.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Journal.Location = new System.Drawing.Point(914, 0);
+            this.Journal.Location = new System.Drawing.Point(691, 0);
             this.Journal.Name = "Journal";
-            this.Journal.Size = new System.Drawing.Size(350, 761);
+            this.Journal.Size = new System.Drawing.Size(350, 747);
             this.Journal.TabIndex = 4;
             this.Journal.TabStop = false;
             this.Journal.Text = "Journal";
@@ -403,7 +403,7 @@
             this.CompletedQuests.ItemHeight = 16;
             this.CompletedQuests.Location = new System.Drawing.Point(3, 129);
             this.CompletedQuests.Name = "CompletedQuests";
-            this.CompletedQuests.Size = new System.Drawing.Size(344, 629);
+            this.CompletedQuests.Size = new System.Drawing.Size(344, 615);
             this.CompletedQuests.TabIndex = 1;
             // 
             // CurrentQuest
@@ -421,7 +421,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 761);
+            this.ClientSize = new System.Drawing.Size(1041, 747);
             this.Controls.Add(this.MapBox);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.Journal);
@@ -429,6 +429,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MinimumSize = new System.Drawing.Size(1060, 790);
             this.Name = "Form1";
             this.Text = "SirRogue";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

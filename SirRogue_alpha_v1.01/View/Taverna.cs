@@ -16,5 +16,10 @@ namespace SirRogue_alpha_v1._01
         {
             InitializeComponent();
         }
+
+        private void acceptBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

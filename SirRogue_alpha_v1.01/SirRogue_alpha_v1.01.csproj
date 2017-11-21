@@ -54,6 +54,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Model\Quest.cs" />
+    <Compile Include="Model\QuestCollection.cs" />
     <Compile Include="View\Taverna.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
