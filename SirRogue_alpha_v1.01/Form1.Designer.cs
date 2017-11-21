@@ -81,7 +81,7 @@
             this.PlayerBox.Dock = System.Windows.Forms.DockStyle.Left;
             this.PlayerBox.Location = new System.Drawing.Point(0, 0);
             this.PlayerBox.Name = "PlayerBox";
-            this.PlayerBox.Size = new System.Drawing.Size(350, 610);
+            this.PlayerBox.Size = new System.Drawing.Size(350, 761);
             this.PlayerBox.TabIndex = 0;
             this.PlayerBox.TabStop = false;
             this.PlayerBox.Text = "Player";
@@ -92,9 +92,9 @@
             this.HeroBox.Controls.Add(this.pictureBox1);
             this.HeroBox.Controls.Add(this.PlayerNameTextBox);
             this.HeroBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.HeroBox.Location = new System.Drawing.Point(3, 21);
+            this.HeroBox.Location = new System.Drawing.Point(3, 18);
             this.HeroBox.Name = "HeroBox";
-            this.HeroBox.Size = new System.Drawing.Size(344, 136);
+            this.HeroBox.Size = new System.Drawing.Size(344, 290);
             this.HeroBox.TabIndex = 0;
             this.HeroBox.TabStop = false;
             this.HeroBox.Text = "Hero";
@@ -102,19 +102,19 @@
             // MoneyBox
             // 
             this.MoneyBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MoneyBox.Location = new System.Drawing.Point(3, 46);
+            this.MoneyBox.Location = new System.Drawing.Point(3, 40);
             this.MoneyBox.Name = "MoneyBox";
             this.MoneyBox.ReadOnly = true;
-            this.MoneyBox.Size = new System.Drawing.Size(338, 25);
+            this.MoneyBox.Size = new System.Drawing.Size(338, 22);
             this.MoneyBox.TabIndex = 2;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 40);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(338, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(338, 247);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -122,17 +122,17 @@
             // PlayerNameTextBox
             // 
             this.PlayerNameTextBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PlayerNameTextBox.Location = new System.Drawing.Point(3, 21);
+            this.PlayerNameTextBox.Location = new System.Drawing.Point(3, 18);
             this.PlayerNameTextBox.Name = "PlayerNameTextBox";
             this.PlayerNameTextBox.ReadOnly = true;
-            this.PlayerNameTextBox.Size = new System.Drawing.Size(338, 25);
+            this.PlayerNameTextBox.Size = new System.Drawing.Size(338, 22);
             this.PlayerNameTextBox.TabIndex = 0;
             // 
             // EquippedBox
             // 
             this.EquippedBox.Controls.Add(this.EquippedTable);
             this.EquippedBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.EquippedBox.Location = new System.Drawing.Point(3, 157);
+            this.EquippedBox.Location = new System.Drawing.Point(3, 308);
             this.EquippedBox.Name = "EquippedBox";
             this.EquippedBox.Size = new System.Drawing.Size(344, 150);
             this.EquippedBox.TabIndex = 1;
@@ -145,21 +145,21 @@
             this.EquippedTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.5F));
             this.EquippedTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.5F));
             this.EquippedTable.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.EquippedTable.Location = new System.Drawing.Point(3, 21);
+            this.EquippedTable.Location = new System.Drawing.Point(3, 18);
             this.EquippedTable.Name = "EquippedTable";
             this.EquippedTable.RowCount = 4;
             this.EquippedTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.EquippedTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.EquippedTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.EquippedTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.EquippedTable.Size = new System.Drawing.Size(338, 126);
+            this.EquippedTable.Size = new System.Drawing.Size(338, 129);
             this.EquippedTable.TabIndex = 0;
             // 
             // StatsBox
             // 
             this.StatsBox.Controls.Add(this.StatsTable);
             this.StatsBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.StatsBox.Location = new System.Drawing.Point(3, 307);
+            this.StatsBox.Location = new System.Drawing.Point(3, 458);
             this.StatsBox.Name = "StatsBox";
             this.StatsBox.Size = new System.Drawing.Size(344, 150);
             this.StatsBox.TabIndex = 1;
@@ -172,21 +172,21 @@
             this.StatsTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.5F));
             this.StatsTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 67.5F));
             this.StatsTable.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.StatsTable.Location = new System.Drawing.Point(3, 21);
+            this.StatsTable.Location = new System.Drawing.Point(3, 18);
             this.StatsTable.Name = "StatsTable";
             this.StatsTable.RowCount = 4;
             this.StatsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.StatsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.StatsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.StatsTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
-            this.StatsTable.Size = new System.Drawing.Size(338, 126);
+            this.StatsTable.Size = new System.Drawing.Size(338, 129);
             this.StatsTable.TabIndex = 1;
             // 
             // InventoryBox
             // 
             this.InventoryBox.Controls.Add(this.InventoryTable);
             this.InventoryBox.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.InventoryBox.Location = new System.Drawing.Point(3, 457);
+            this.InventoryBox.Location = new System.Drawing.Point(3, 608);
             this.InventoryBox.Name = "InventoryBox";
             this.InventoryBox.Size = new System.Drawing.Size(344, 150);
             this.InventoryBox.TabIndex = 1;
@@ -201,14 +201,14 @@
             this.InventoryTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 85F));
             this.InventoryTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 89F));
             this.InventoryTable.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.InventoryTable.Location = new System.Drawing.Point(3, 21);
+            this.InventoryTable.Location = new System.Drawing.Point(3, 18);
             this.InventoryTable.Name = "InventoryTable";
             this.InventoryTable.RowCount = 4;
             this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.875F));
             this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.125F));
             this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
             this.InventoryTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.InventoryTable.Size = new System.Drawing.Size(338, 126);
+            this.InventoryTable.Size = new System.Drawing.Size(338, 129);
             this.InventoryTable.TabIndex = 1;
             // 
             // MapBox
@@ -225,7 +225,7 @@
             this.MapBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MapBox.Location = new System.Drawing.Point(350, 0);
             this.MapBox.Name = "MapBox";
-            this.MapBox.Size = new System.Drawing.Size(264, 510);
+            this.MapBox.Size = new System.Drawing.Size(564, 661);
             this.MapBox.TabIndex = 1;
             this.MapBox.TabStop = false;
             this.MapBox.Text = "Map";
@@ -234,7 +234,7 @@
             // 
             this.NWButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NWButton.Enabled = false;
-            this.NWButton.Location = new System.Drawing.Point(39, 175);
+            this.NWButton.Location = new System.Drawing.Point(189, 251);
             this.NWButton.Name = "NWButton";
             this.NWButton.Size = new System.Drawing.Size(40, 40);
             this.NWButton.TabIndex = 8;
@@ -245,7 +245,7 @@
             // 
             this.WButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.WButton.Enabled = false;
-            this.WButton.Location = new System.Drawing.Point(4, 240);
+            this.WButton.Location = new System.Drawing.Point(154, 316);
             this.WButton.Name = "WButton";
             this.WButton.Size = new System.Drawing.Size(40, 40);
             this.WButton.TabIndex = 7;
@@ -256,7 +256,7 @@
             // 
             this.SWButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SWButton.Enabled = false;
-            this.SWButton.Location = new System.Drawing.Point(39, 310);
+            this.SWButton.Location = new System.Drawing.Point(189, 386);
             this.SWButton.Name = "SWButton";
             this.SWButton.Size = new System.Drawing.Size(40, 40);
             this.SWButton.TabIndex = 6;
@@ -267,7 +267,7 @@
             // 
             this.SButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SButton.Enabled = false;
-            this.SButton.Location = new System.Drawing.Point(114, 340);
+            this.SButton.Location = new System.Drawing.Point(264, 416);
             this.SButton.Name = "SButton";
             this.SButton.Size = new System.Drawing.Size(40, 40);
             this.SButton.TabIndex = 5;
@@ -278,7 +278,7 @@
             // 
             this.SEButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.SEButton.Enabled = false;
-            this.SEButton.Location = new System.Drawing.Point(189, 310);
+            this.SEButton.Location = new System.Drawing.Point(339, 386);
             this.SEButton.Name = "SEButton";
             this.SEButton.Size = new System.Drawing.Size(40, 40);
             this.SEButton.TabIndex = 4;
@@ -289,7 +289,7 @@
             // 
             this.EButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EButton.Enabled = false;
-            this.EButton.Location = new System.Drawing.Point(214, 240);
+            this.EButton.Location = new System.Drawing.Point(364, 316);
             this.EButton.Name = "EButton";
             this.EButton.Size = new System.Drawing.Size(40, 40);
             this.EButton.TabIndex = 3;
@@ -300,7 +300,7 @@
             // 
             this.NEButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NEButton.Enabled = false;
-            this.NEButton.Location = new System.Drawing.Point(189, 175);
+            this.NEButton.Location = new System.Drawing.Point(339, 251);
             this.NEButton.Name = "NEButton";
             this.NEButton.Size = new System.Drawing.Size(40, 40);
             this.NEButton.TabIndex = 2;
@@ -311,7 +311,7 @@
             // 
             this.NButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NButton.Enabled = false;
-            this.NButton.Location = new System.Drawing.Point(114, 140);
+            this.NButton.Location = new System.Drawing.Point(264, 216);
             this.NButton.Name = "NButton";
             this.NButton.Size = new System.Drawing.Size(40, 40);
             this.NButton.TabIndex = 1;
@@ -322,9 +322,9 @@
             // 
             this.MapPicture.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MapPicture.Image = ((System.Drawing.Image)(resources.GetObject("MapPicture.Image")));
-            this.MapPicture.Location = new System.Drawing.Point(3, 21);
+            this.MapPicture.Location = new System.Drawing.Point(3, 18);
             this.MapPicture.Name = "MapPicture";
-            this.MapPicture.Size = new System.Drawing.Size(258, 486);
+            this.MapPicture.Size = new System.Drawing.Size(558, 640);
             this.MapPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MapPicture.TabIndex = 0;
             this.MapPicture.TabStop = false;
@@ -334,9 +334,9 @@
             this.groupBox3.Controls.Add(this.groupBox2);
             this.groupBox3.Controls.Add(this.groupBox1);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox3.Location = new System.Drawing.Point(350, 510);
+            this.groupBox3.Location = new System.Drawing.Point(350, 661);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(264, 100);
+            this.groupBox3.Size = new System.Drawing.Size(564, 100);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
@@ -344,9 +344,9 @@
             // 
             this.groupBox2.Controls.Add(this.TavernButton);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.groupBox2.Location = new System.Drawing.Point(91, 21);
+            this.groupBox2.Location = new System.Drawing.Point(391, 18);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(170, 76);
+            this.groupBox2.Size = new System.Drawing.Size(170, 79);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tavern";
@@ -354,7 +354,7 @@
             // TavernButton
             // 
             this.TavernButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.TavernButton.Location = new System.Drawing.Point(3, 50);
+            this.TavernButton.Location = new System.Drawing.Point(3, 53);
             this.TavernButton.Name = "TavernButton";
             this.TavernButton.Size = new System.Drawing.Size(164, 23);
             this.TavernButton.TabIndex = 1;
@@ -366,9 +366,9 @@
             // 
             this.groupBox1.Controls.Add(this.ShopButton);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.groupBox1.Location = new System.Drawing.Point(3, 21);
+            this.groupBox1.Location = new System.Drawing.Point(3, 18);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(162, 76);
+            this.groupBox1.Size = new System.Drawing.Size(162, 79);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Shop";
@@ -376,7 +376,7 @@
             // ShopButton
             // 
             this.ShopButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ShopButton.Location = new System.Drawing.Point(3, 50);
+            this.ShopButton.Location = new System.Drawing.Point(3, 53);
             this.ShopButton.Name = "ShopButton";
             this.ShopButton.Size = new System.Drawing.Size(156, 23);
             this.ShopButton.TabIndex = 0;
@@ -389,9 +389,9 @@
             this.Journal.Controls.Add(this.CompletedQuests);
             this.Journal.Controls.Add(this.CurrentQuest);
             this.Journal.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Journal.Location = new System.Drawing.Point(614, 0);
+            this.Journal.Location = new System.Drawing.Point(914, 0);
             this.Journal.Name = "Journal";
-            this.Journal.Size = new System.Drawing.Size(350, 610);
+            this.Journal.Size = new System.Drawing.Size(350, 761);
             this.Journal.TabIndex = 4;
             this.Journal.TabStop = false;
             this.Journal.Text = "Journal";
@@ -400,16 +400,16 @@
             // 
             this.CompletedQuests.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CompletedQuests.FormattingEnabled = true;
-            this.CompletedQuests.ItemHeight = 15;
-            this.CompletedQuests.Location = new System.Drawing.Point(3, 132);
+            this.CompletedQuests.ItemHeight = 16;
+            this.CompletedQuests.Location = new System.Drawing.Point(3, 129);
             this.CompletedQuests.Name = "CompletedQuests";
-            this.CompletedQuests.Size = new System.Drawing.Size(344, 475);
+            this.CompletedQuests.Size = new System.Drawing.Size(344, 629);
             this.CompletedQuests.TabIndex = 1;
             // 
             // CurrentQuest
             // 
             this.CurrentQuest.Dock = System.Windows.Forms.DockStyle.Top;
-            this.CurrentQuest.Location = new System.Drawing.Point(3, 21);
+            this.CurrentQuest.Location = new System.Drawing.Point(3, 18);
             this.CurrentQuest.Multiline = true;
             this.CurrentQuest.Name = "CurrentQuest";
             this.CurrentQuest.ReadOnly = true;
@@ -419,15 +419,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(964, 610);
+            this.ClientSize = new System.Drawing.Size(1264, 761);
             this.Controls.Add(this.MapBox);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.Journal);
             this.Controls.Add(this.PlayerBox);
-            this.Font = new System.Drawing.Font("Algerian", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "SirRogue";

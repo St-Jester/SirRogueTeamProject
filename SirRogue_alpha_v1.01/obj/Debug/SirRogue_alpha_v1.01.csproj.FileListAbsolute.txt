@@ -7,3 +7,14 @@ C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows
 C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue_alpha_v1.01\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.csproj.GenerateResource.Cache
 C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue_alpha_v1.01\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.exe
 C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue_alpha_v1.01\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.pdb
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\bin\Debug\SirRogue_alpha_v1.01.exe.config
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\bin\Debug\SirRogue_alpha_v1.01.exe
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\bin\Debug\SirRogue_alpha_v1.01.pdb
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.csprojResolveAssemblyReference.cache
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1._01.Form1.resources
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1._01.Properties.Resources.resources
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1._01.Taverna.resources
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.csproj.GenerateResource.Cache
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.csproj.CoreCompileInputs.cache
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.exe
+D:\GitHub\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.pdb

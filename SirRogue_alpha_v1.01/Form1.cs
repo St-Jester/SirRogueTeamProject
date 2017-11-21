@@ -39,6 +39,8 @@ namespace SirRogue_alpha_v1._01
         private void TavernButton_Click(object sender, EventArgs e)
         {
             //Open TavernForm
+            Taverna bar = new Taverna();
+            bar.Show();
         }
 
         void DirectionButtonClick(object sender, EventArgs e)
