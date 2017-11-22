@@ -54,6 +54,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shop\DataStub\DataManagerStub.cs" />
+    <Compile Include="Shop\DataStub\Inventory.cs" />
+    <Compile Include="Shop\DataStub\Item.cs" />
+    <Compile Include="Shop\DataStub\Store.cs" />
+    <Compile Include="Shop\DataStub\Wallet.cs" />
+    <Compile Include="Shop\ShopUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop\ShopUI.Designer.cs">
+      <DependentUpon>ShopUI.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

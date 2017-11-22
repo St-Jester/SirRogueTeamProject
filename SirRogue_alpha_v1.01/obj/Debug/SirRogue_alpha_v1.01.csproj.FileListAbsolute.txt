@@ -7,3 +7,12 @@ C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows
 C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue_alpha_v1.01\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.csproj.GenerateResource.Cache
 C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue_alpha_v1.01\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.exe
 C:\Users\Kateryna\Documents\Programming\Programming\Practice\My practice\windows\Project\SirRogue_alpha_v1.01\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.pdb
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\bin\Debug\SirRogue_alpha_v1.01.exe.config
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.exe
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.pdb
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\bin\Debug\SirRogue_alpha_v1.01.exe
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\bin\Debug\SirRogue_alpha_v1.01.pdb
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.csprojResolveAssemblyReference.cache
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1._01.Form1.resources
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1._01.Properties.Resources.resources
+D:\MyProjects\SirRogueTeamProject\SirRogueTeamProject\SirRogue_alpha_v1.01\obj\Debug\SirRogue_alpha_v1.01.csproj.GenerateResource.Cache

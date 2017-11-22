@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SirRogue_alpha_v1._01.Shop;
 
 namespace SirRogue_alpha_v1._01
 {
@@ -34,6 +35,8 @@ namespace SirRogue_alpha_v1._01
         {
             //Open ShopForm
             //Send PlayersMoney To ShopForm
+            ShopUI shopForm = new ShopUI();
+            shopForm.ShowDialog();
         }
 
         private void TavernButton_Click(object sender, EventArgs e)
