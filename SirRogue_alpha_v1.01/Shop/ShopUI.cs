@@ -14,15 +14,20 @@ namespace SirRogue_alpha_v1._01.Shop
     public partial class ShopUI : Form
     {
         DataManagerStub dms;
+        Timer shopkeeperTimer;
 
         public ShopUI()
         {
             InitializeComponent();
 
             dms = new DataManagerStub();
+            shopkeeperTimer = new Timer();
+            shopkeeperTimer.Interval = 1000; // 1 second for demonstration
+            shopkeeperTimer.Tick += OnShopkeeperTimerTick;
+            shopkeeperTimer.Start();
             storeLstBox.DataSource = dms.Store.GetStringList();
         }
-
+       
         private void storeLstBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBox lstBox = sender as ListBox;
@@ -73,6 +78,11 @@ namespace SirRogue_alpha_v1._01.Shop
                 info += $"{item.Name}\n\r";
 
             MessageBox.Show(info);
+        }
+
+        private void OnShopkeeperTimerTick(object sender, EventArgs e)
+        {
+            shopkeeperTxtBox.Text = dms.Shopkeeper.GetRandomPhrase();
         }
     }
 }

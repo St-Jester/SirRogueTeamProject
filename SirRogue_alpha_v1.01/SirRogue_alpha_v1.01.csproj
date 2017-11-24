@@ -57,6 +57,7 @@
     <Compile Include="Shop\DataStub\DataManagerStub.cs" />
     <Compile Include="Shop\DataStub\Inventory.cs" />
     <Compile Include="Shop\DataStub\Item.cs" />
+    <Compile Include="Shop\DataStub\Shopkeeper.cs" />
     <Compile Include="Shop\DataStub\Store.cs" />
     <Compile Include="Shop\DataStub\Wallet.cs" />
     <Compile Include="Shop\ShopUI.cs">
